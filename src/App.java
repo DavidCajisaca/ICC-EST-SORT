@@ -3,8 +3,16 @@ public class App {
         System.out.println("Metodo de seleccion");
         MetodosOrdenamiento m=new MetodosOrdenamiento();
         int [] arreglosd={9, 5, 30, 10, 24};
-        int[] arregloorde=m.seleccion(arreglosd);
+
+        int[] arregloorde=m.seleccion(arreglosd,true);
+        m.printarreglo(arregloorde);
+        System.out.println();
+
+        
         m.printarreglo(arregloorde);
         System.out.println(" ");
+
+
+
     }
 }
